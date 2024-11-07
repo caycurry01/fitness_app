@@ -29,7 +29,6 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
 .target
 
 
@@ -73,6 +72,7 @@ frontend/.vite/
 # Spring Boot Specific
 application.properties
 application.yml
+.env
 
 # Temporary files
 *.tmp
@@ -94,5 +94,4 @@ out/
 
 # Build files for frontend (optional)
 frontend/build/
-.env
 .vscode
