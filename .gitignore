@@ -94,5 +94,5 @@ out/
 
 # Build files for frontend (optional)
 frontend/build/
-
+.env
 .vscode
