@@ -1,0 +1,27 @@
+.messageContainer {
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 20%; 
+    left: 50%;
+    transform: translateX(-50%); 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.greeting {
+    font-size: 3em;
+    font-weight: lighter;
+    margin: 0;
+    
+}
+
+.subGreeting {
+    font-size: 1.7em;
+    margin: 5px 0 0;
+    font-weight: lighter;
+}

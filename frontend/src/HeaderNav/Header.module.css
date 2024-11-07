@@ -1,0 +1,29 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #013A44; 
+    padding: 10px 0;
+    color: #ffffff;
+    z-index: 1000; 
+
+}
+
+.icon, .item {
+    flex: 1;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.icon svg {
+    vertical-align: middle;
+}
+
+
