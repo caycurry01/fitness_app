@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import CalendarCircle from "../CalendarCircle/CalendarCircle";
+import ExerciseScroll from "../ExerciseScroll/ExerciseScroll";
 
 const PullUpDrawer = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -28,7 +30,7 @@ const PullUpDrawer = () => {
         left: 0,
         right: 0,
         height: drawerHeight,
-        backgroundColor: "#ffffff", 
+        backgroundColor: "#D9D9D9", 
         boxShadow: "0px -2px 10px rgba(0, 0, 0, 0.2)",
         borderTopLeftRadius: "16px",
         borderTopRightRadius: "16px",
@@ -50,9 +52,11 @@ const PullUpDrawer = () => {
           }}
         ></div>
       </div>
-      <div>
-        {/* Drawer Content */}
-        <p>Your content here...</p>
+      {/* Calendar Component */}
+      <CalendarCircle />
+      <ExerciseScroll/>
+      {/* Additional Drawer Content */}
+      <div style={{ marginTop: '30px' }}>
       </div>
     </motion.div>
   );

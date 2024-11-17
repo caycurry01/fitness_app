@@ -20,6 +20,17 @@
     font-size: 15px;
     font-weight: normal;
     letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.icon:hover{
+    color: #ccc;
+    transition: 0.3s;
+    
+}
+.item:hover{
+    color: #ccc;
+    transition: 0.3s;
 }
 
 .icon svg {

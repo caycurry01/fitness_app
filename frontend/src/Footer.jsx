@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer style={styles.footer}>
-            <p style={styles.text}>© {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
+            <p style={styles.text}>© {new Date().getFullYear()} FitMe Tracker. All rights reserved.</p>
             <div style={styles.links}>
                 <a href="/privacy" style={styles.link}>Privacy Policy</a>
                 <span style={styles.separator}>|</span>
@@ -20,7 +20,7 @@ const styles = {
         backgroundColor: '#333',
         color: '#fff',
         textAlign: 'center',
-        padding: '10px',
+        padding: '15px',
         position: 'fixed',
         bottom: 0,
         left: 0,

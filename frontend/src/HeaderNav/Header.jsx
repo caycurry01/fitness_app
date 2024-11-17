@@ -4,15 +4,15 @@ import { FaCalendarAlt, FaUserCircle } from 'react-icons/fa';
 
 function Header() {
   return (
-    <header className={styles.header}> 
-      <div className={styles.icon}> 
+    <header className={styles.header}>
+      <a href="/goals" className={styles.icon} aria-label="Goals">
         <FaCalendarAlt size={27} />
-      </div>
-      <div className={styles.item}>Goals</div>
-      <div className={styles.item}>Nutrition</div>
-      <div className={styles.icon}>
+      </a>
+      <a href="/goals" className={styles.item}>Goals</a>
+      <a href="/nutrition" className={styles.item}>Nutrition</a>
+      <a href="/profile" className={styles.icon} aria-label="Profile">
         <FaUserCircle size={30} />
-      </div>
+      </a>
     </header>
   );
 }
